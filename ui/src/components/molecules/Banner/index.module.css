@@ -1,0 +1,37 @@
+.bannerWrap {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.bannerWrap .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.bannerWrap .content span {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.bannerWrap .content h1 {
+    max-width: 75%;
+    font-size: 36px;
+    color: white;
+}
+
+.bannerWrap::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: #00000080;
+}

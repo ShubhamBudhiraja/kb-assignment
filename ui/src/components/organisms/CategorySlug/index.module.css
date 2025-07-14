@@ -1,0 +1,9 @@
+.cardsWrap {
+    display: flex;
+    margin: 0 -12px;
+    flex-wrap: wrap;
+}
+
+.cardsWrap .singleCard {
+    width: 23%;
+}

@@ -1,0 +1,29 @@
+.headerWrapper {
+    padding: 24px 0;
+}
+
+.headerWrapper nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerWrapper nav .logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.headerWrapper nav ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+.footerWrap {
+    margin-top: 72px;
+    background-color: black;
+    padding: 12px 0;
+}
+
+.footerWrap p {
+    color: white;
+}

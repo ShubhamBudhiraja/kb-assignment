@@ -1,0 +1,13 @@
+.headingWrap {
+    margin-bottom: 20px;
+}
+
+.headingWrap h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.headingWrap span {
+    font-size: 18px;
+    margin-top: 120px;
+}
